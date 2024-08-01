@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3 school </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        .top-nav {
+            display: flex;
+            align-items: start;
+            justify-content: space-evenly;
+            position: relative;
+            height: 70px;
+            align-items: center;
+           
+            font-size: 18px;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .img {
+            width: 70px;
+        }
+
+        input {
+            border-radius: 20px;
+            border: 1px solid;
+            
+            height: 30px;
+        }
+
+        .search {
+            position: absolute;
+            top: 23px;
+            left: 57%;
+        }
+
+        .circle {
+            position: absolute;
+            left: 60%;
+            top: 20px;
+            margin-left: 10px;
+        }
+
+        .sign {
+            background-color: rgb(120, 233, 120);
+            color: white;
+            height: 39px;
+            border-radius: 10px;
+            border: none;
+            position: absolute;
+            top: 15px;
+            right: 78px;
+        
+        }
+
+        .login {
+            color: white;
+            height: 39px;
+            border: none;
+            background-color: lightblue;
+            padding-left: 15px;
+            border-radius: 10px 10px 10px 10px;
+            margin-left: 30px;
+        }
+
+        .down-nav {
+            display: flex;
+            justify-content: space-evenly;
+            color: white;
+            background-color: rgb(41, 39, 39);
+            font-size: 1.1rem;
+            height: 40px;
+            align-items: center;
+        }
+        .same{
+            color: purple;
+            margin: 5px;
+        }
+        ::placeholder{
+            font-size: 18px;
+            padding-left: 20px;
+        }
+        i{
+            margin:5px;
+        }
+        p:hover{
+            background-color: green;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .spaces:hover,.get:hover,.plus:hover{
+            background-color: lightslategray;
+            cursor: pointer;
+            padding: 15px 0px 15px 0px;
+            border-radius: 30%;  
+        }
+        .circle:hover{
+            background-color: darkgray;
+            padding:0px 0px 10px 0px;
+        }
+       nav:hover{
+        background-color: black;
+        padding: 10px 0px 10px 0px;
+        cursor: pointer;
+       }
+       .login:hover{
+        background-color: rgb(120, 233, 120);
+        cursor: pointer;
+       }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="top-nav">
+            <img src="./w3.png" alt="" class="img">
+            <p>Tutorials<i class="fa-solid fa-caret-down"></i></p>
+            <p>Exercise<i class="fa-solid fa-caret-down"></i></p>
+            <p>Certificates<i class="fa-solid fa-caret-down"></i></p>
+            <p>Services<i class="fa-solid fa-caret-down"></i></p>
+            <input type="text" placeholder="Search.."><i class="fa-solid fa-magnifying-glass search"></i>
+            <p><i class="fa-solid fa-circle-half-stroke circle"></i></p>
+            <p class="plus"><i class="fa-regular fa-star same"></i></i>Plus</p>
+            <p class="spaces">Spaces</p>
+            <p class="get"><i class="fa-solid fa-cart-shopping same"></i>get Certificate</p>
+            <button class="sign">Sign Up</button><button class="login">Log in</button>
+        </div>
+        <div class="down-nav">
+            <nav>HTML</nav>
+            <nav>CSS</nav>
+            <nav>JAVASCRIPT</nav>
+            <nav>SQL</nav>
+            <nav>PYTHON</nav>
+            <nav>JAVA</nav>
+            <nav>PHP</nav>
+            <nav>HOW TO</nav>
+            <nav>W3.CSS</nav>
+            <nav>C++</nav>
+            <nav>C#</nav>
+            <nav>BOOTSTRAP</nav>
+            <nav>REACT</nav>
+            <nav>MYSQL</nav>
+            <nav>JQUERY</nav>
+            <nav>EXCEL</nav>
+            <nav>XML</nav>
+            <nav>DJANGO</nav>
+        </div>
+    </header>
+</body>
+
+</html>
